@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An ecommerce api made during one bit code bootcamp.
 
-Things you may want to cover:
+We are using Ruby on Rails as framework -v (6.0.6)
 
-* Ruby version
+To run this project you need postgresql in your machine.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
