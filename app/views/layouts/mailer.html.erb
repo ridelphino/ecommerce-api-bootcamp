@@ -2,12 +2,19 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <style>
-      /* Email styles need to be inline */
-    </style>
+    <%= stylesheet_link_tag "email" %>
   </head>
-
   <body>
-    <%= yield %>
+    <table>
+      <th class="columns first last small-12 large-12">
+        <table>
+          <tr>
+            <th><%= yield %></th>
+            <th class="expander"></th>
+          </tr>
+        </table>
+      </th>
+    </table>
   </body>
 </html>
+

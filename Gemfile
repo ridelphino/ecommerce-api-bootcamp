@@ -10,11 +10,24 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 
 # auth
-
 gem 'devise_token_auth', '~> 1.1.4'
+
+# stylling emails
+gem 'foundation_emails'
+gem 'sass-rails'
+
+# CORS
+gem 'rack-cors', '~> 1.1.1'
+
+# Rendering
+gem 'jbuilder', '~> 2.10.1'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'rspec-rails', '~> 4.0.1'
+  gem 'faker'
+  gem 'factory_bot_rails'
+  gem 'shoulda-matchers', '~> 4.0'
 end
 
 group :development do
